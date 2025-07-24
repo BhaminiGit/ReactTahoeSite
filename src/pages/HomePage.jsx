@@ -28,7 +28,7 @@ const HomePage = () => {
 
       <div className='deepestLakeSectionContainer'>
         <div className='deepestLakeImgAndDesk'>
-          <img className="deepestLakeImg" src='src/assets/homepage/deepestLake.jpeg'></img>
+          <img className="deepestLakeImg" src='/assets/homepage/deepestLake.jpeg'></img>
           <div className='deepestLakeDesc'>Lake Tahoe is the second deepest lake in the United States, reaching a max
             depth of 1,645 ft (501 m).</div>
         </div>

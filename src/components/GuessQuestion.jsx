@@ -26,7 +26,7 @@ const GuessQuestion = (questionNumber) => {
             <div className='questionPicContainer relative w-full max-w-2xl h-100 mx-auto'>
                 
                 <img className='questionPic absolute inset-0 w-full h-full z-0 object-center'
-                 src='src/assets/guessPics/Caverocklaketahoe.jpeg' />
+                 src='/assets/guessPics/Caverocklaketahoe.jpeg' />
                  {showPictureInfo ?   (
                   <div className="questionPicOverlay absolute flex flex-col items-center justify-center inset-0  bg-gray-50/50 z-10">
                     <h2 className="questionPicExplanation font-sansSerif text-darkblue font-semibold text-4xl flex ">You are correct</h2>

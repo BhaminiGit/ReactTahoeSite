@@ -8,7 +8,7 @@ const NavBar = () => {
     <>
         
     <nav>
-              <TahoeLogo className='tahoeLogo' />
+          <NavLink to="/"> <TahoeLogo className='tahoeLogo' /> </NavLink>
       
         
           <div className ="navButtons">

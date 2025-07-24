@@ -23,7 +23,7 @@ const Boating = () => {
       <h1 className='chooseAdventureHeading'>Choose Your Adventure</h1>
 
       <div className='boatingTypesSections'>
-        <img className='kayakPic' src='src/assets/boatingKayak.png' />
+        <img className='kayakPic' src='assets/boating/boatingKayak.png' />
         <div className="kayakInfo ml-5">
           <h2 className='kayakHeading'>Kayaks</h2>
           <div className='kayakDescription '>Glide through the serene waters of Lake Tahoe,
@@ -43,12 +43,12 @@ const Boating = () => {
             a peaceful, intimate experience with the lake's clear waters.
           </div>
         </div>
-        <img className='kayakPic' src='src/assets/boatingKayak.png' />
+        <img className='kayakPic' src='/assets/boating/boatingKayak.png' />
 
       </div>
 
       <div className='boatingTypesSections'>
-        <img className='kayakPic' src='src/assets/boatingKayak.png' />
+        <img className='kayakPic' src='/assets/boating/boatingKayak.png' />
         <div className="kayakInfo ml-5">
           <h2 className='kayakHeading'>Kayaks</h2>
           <div className='kayakDescription'>Glide through the serene waters of Lake Tahoe,
