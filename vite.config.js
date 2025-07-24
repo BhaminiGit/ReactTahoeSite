@@ -13,7 +13,9 @@ export default defineConfig({
       exportAsDefault: true,
     }),
     tailwindcss(),
+    
   ],
+  base: process.env.VITE_BASE_PATH || "/ReactTahoeSite",
    server: {
    port: 3002
  },
